@@ -1,0 +1,19 @@
+@charset "utf-8";
+/**
+ * @author https://www.cosmosfarm.com
+ */
+
+#kboard-first-news-ticker { position: relative; padding-right: 35px; height: 40px; }
+#kboard-first-news-ticker img { display: inline-block; margin: 0; width: auto; height: auto; vertical-align: baseline; max-width: 100%; max-height: 100%; border: 0; }
+#kboard-first-news-ticker .rolling-item { display: none; right: 0; line-height: 40px; list-style-type: none; background-color: transparent; }
+#kboard-first-news-ticker .rolling-item .title-area { margin-right: 75px; }
+#kboard-first-news-ticker .rolling-item .title-area a { display: block; width: auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: normal; line-height: 40px; font-size: 16px; text-decoration: none; }
+#kboard-first-news-ticker .rolling-item .title-area img.kboard-icon-lock { width: 12px !important; height: 12px !important; }
+#kboard-first-news-ticker .rolling-item .title-area img.kboard-icon-new { width: 12px !important; height: 12px !important; }
+#kboard-first-news-ticker .rolling-item .title-area .comments-count { font-size: 14px; }
+#kboard-first-news-ticker .rolling-item .date-area { position: absolute; right: 0; top: 0; width: 75px; line-height: 40px; text-align: right; font-size: 14px; }
+#kboard-first-news-ticker .kboard-first-news-ticker-new-notify { display: inline-block; *display: inline; zoom: 1; }
+#kboard-first-news-ticker .rolling-button-area { position: absolute; right: 5px; top: 5px; z-index: 10; }
+#kboard-first-news-ticker .rolling-button-area i.fas { position: relative; top: -8px; }
+#kboard-first-news-ticker .rolling-button-area .rolling-prev,
+#kboard-first-news-ticker .rolling-button-area .rolling-next { display: block; padding: 0 5px; height: 14px; font-size: 20px; overflow: hidden; text-decoration: none; }
