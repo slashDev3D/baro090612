@@ -1,0 +1,36 @@
+.kboard-default-poweredby {
+ 
+    display: none;
+}
+a.kboard-default-button-small, input.kboard-default-button-small, button.kboard-default-button-small {
+
+    color: #fff !important;
+    background: #222 !important;
+
+}
+#kboard-default-latest table tr {
+ 
+    background-color: #ededed;
+}
+#kboard-default-latest table tr {
+    background-color: #fff;
+}
+.kboard-inside-ask-poweredby {
+
+    display: none;
+}
+.navbar.hestia_left>.container {
+    flex-direction: row;
+    width: 1400px !important;
+}
+.footer .footer-menu a, .hestia-top-bar, .label, .media-footer a, .navbar, .navbar a {
+    font-size: 15px;
+}
+.kboard-pure-gallery-poweredby {
+
+    display: none;
+}
+footer.footer.footer-black {
+   
+    display: none;
+}
